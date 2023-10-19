@@ -1,20 +1,16 @@
 export const team = [
   { 
-    name: 'Andreas Sünder', role: 'Data Scientist & Project Lead',
-    image: { src: '~/assets/images/team/asuender.png', alt: 'Andreas Sünder' },
+    name: 'Yusuf Akalin', role: 'Database Engineer & Project Lead',
+    image: { src: '~/assets/images/team/Yakalin.png', alt: 'Yusuf Akalin' },
   },
   { 
-    name: 'Samira Ghaffari', role: 'Reseacher',
-    image: { src: '~/assets/images/team/sghaffari.png', alt: 'Samira Ghaffari' },
+    name: 'Benjamin Kissinger', role: 'Data Scientist',
+    image: { src: '~/assets/images/team/Bkissinger.png', alt: 'Benjamin Kissinger' },
   },
   {
-    name: 'Daniel Lengsteiner', role: 'Data Scientist',
-    image: { src: '~/assets/images/team/dlengsteiner.png', alt: 'Daniel Lengsteiner' },
-  },
-  { 
-    name: 'Nicolas Pfeiler', role: 'Frontend Developer' ,
-    image: { src: '~/assets/images/team/npfeiler.png', alt: 'Nicolas Pfeiler' },
-  },
+    name: 'Alexander Hauser', role: 'Data Scientist',
+    image: { src: '~/assets/images/team/Ahauser.png', alt: 'Alexander Hauser' },
+  }
 ];
 
 export const features = [
@@ -38,44 +34,37 @@ export const features = [
 export const milestones = [
   {
     title: 'Exploration',
-    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-    deadline: new Date('2023-10-31'),
+    description: "Comparison of different Frameworks.",
+    deadline: new Date('2023-10-02'),
     active: true,
     icon: 'tabler:search',
   },
   {
-    title: 'Trained machine learning models',
-    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-    deadline: new Date('2023-11-30'),
+    title: 'Prototyping',
+    description: "Already collected useful Data & created an API prototype.",
+    deadline: new Date('2023-11-13'),
     active: false,
     icon: 'tabler:robot',
   },
   {
-    title: 'Deployed user interface & visualizations ',
-    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-    deadline: new Date('2024-01-10'),
+    title: 'Webscraping',
+    description: "Developed a working Webscraping software.",
+    deadline: new Date('2023-12-04'),
     active: false,
     icon: 'tabler:app-window',
   },
   {
-    title: "Researched legal situation",
-    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-    deadline: new Date('2024-01-15'),
+    title: "Uploading texts",
+    description: " Successfully implemnted a function that allows user to upload their own texts & created an working API.",
+    deadline: new Date('2023-12-25'),
     active: false,
     icon: 'tabler:gavel',
   },
   {
-    title: "Integrated topic labelling",
-    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-    deadline: new Date('2024-01-17'),
+    title: "Finished project",
+    description: "All functionalities were implemented correctly and tested.",
+    deadline: new Date('2024-01-22'),
     active: false,
     icon: 'tabler:tags',
-  },
-  {
-    title: "Finished project",
-    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-    deadline: new Date('2024-04-02'),
-    active: false,
-    icon: 'tabler:pennant',
   },
 ];

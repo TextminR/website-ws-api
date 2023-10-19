@@ -1,5 +1,5 @@
 site:
-  name: TextminR - DV&DA
+  name: TextminR - WS&API
   site: 'https://textminr-app.netlify.app/'
   base: '/'
   trailingSlash: false
