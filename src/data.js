@@ -2,14 +2,17 @@ export const team = [
   { 
     name: 'Yusuf Akalin', role: 'Database Engineer & Project Lead',
     image: { src: '~/assets/images/team/Yakalin.png', alt: 'Yusuf Akalin' },
+    email: 'yakalin@student.tgm.ac.at',
   },
   { 
     name: 'Benjamin Kissinger', role: 'Data Scientist',
     image: { src: '~/assets/images/team/Bkissinger.png', alt: 'Benjamin Kissinger' },
+    email: 'bkissinger@student.tgm.ac.at',
   },
   {
     name: 'Alexander Hauser', role: 'Data Scientist',
     image: { src: '~/assets/images/team/Ahauser.png', alt: 'Alexander Hauser' },
+    email: 'ahauser@student.tgm.ac.at',
   }
 ];
 

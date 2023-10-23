@@ -24,7 +24,7 @@ const {
   <div class="flex flex-wrap justify-center -m-4 text-center">
     {
       members &&
-        members.map(({name, role, image}) => (
+        members.map(({name, role, image, email}) => (
         <div class="p-4 md:w-1/4 sm:w-1/2 w-full min-w-[220px] text-center">
           <Image
             class="mx-auto rounded-md w-full mb-3"
@@ -38,6 +38,8 @@ const {
 
           <div class="text-lg font-bold">{name}</div>
           <p class="text-muted mt-2">{role}</p> 
+          <span class="text-muted text-xs font-mono select-none">{email}</span>
+
           </div>
         ))
     }

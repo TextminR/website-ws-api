@@ -275,6 +275,7 @@ interface TeamMember {
   name?: string;
   role?: string;
   image?: Image;
+  email?: string;
 }
 
 export interface Team extends Headline, Widget {
