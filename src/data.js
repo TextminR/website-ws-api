@@ -1,6 +1,6 @@
 export const team = [
   { 
-    name: 'Yusuf Akalin', role: 'Database Engineer & Project Lead',
+    name: 'Yusuf Akalin', role: 'Data Engineer & Project Lead',
     image: { src: '~/assets/images/team/Yakalin.png', alt: 'Yusuf Akalin' },
     email: 'yakalin@student.tgm.ac.at',
   },
