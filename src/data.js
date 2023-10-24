@@ -20,17 +20,17 @@ export const features = [
   {
     title: 'API',
     description: 'A super fast gateway to the world of literature.',
-    icon: 'flat-color-icons:document',
+    icon: 'flat-color-icons:accept-database',
   },
   {
     title: 'Webscraping',
     description: 'Discovering the latest news by scraping multiple newspapers.',
-    icon: 'flat-color-icons:template',
+    icon: 'flat-color-icons:news',
   },
   {
     title: 'Text Extraction',
     description: 'Analyse your own texts by uploading them to our webapp.',
-    icon: 'flat-color-icons:voice-presentation',
+    icon: 'flat-color-icons:upload',
   },
 ];
 
