@@ -18,18 +18,18 @@ export const team = [
 
 export const features = [
   {
-    title: 'Feature 1',
-    description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
+    title: 'API',
+    description: 'A super fast gateway to the world of literature.',
     icon: 'flat-color-icons:document',
   },
   {
-    title: 'Feature 2',
-    description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
+    title: 'Webscraping',
+    description: 'Discovering the latest news by scraping multiple newspapers.',
     icon: 'flat-color-icons:template',
   },
   {
-    title: 'Feature 3',
-    description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
+    title: 'Text Extraction',
+    description: 'Analyse your own texts by uploading them to our webapp.',
     icon: 'flat-color-icons:voice-presentation',
   },
 ];
