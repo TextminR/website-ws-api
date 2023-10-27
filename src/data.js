@@ -46,7 +46,7 @@ export const milestones = [
     title: 'Prototyping',
     description: "Already collected useful Data & created an API prototype.",
     deadline: new Date('2023-11-13'),
-    active: false,
+    active: true,
     icon: 'tabler:robot',
   },
   {
