@@ -53,14 +53,14 @@ export const milestones = [
     title: 'Webscraping',
     description: "Developed a working Webscraping software.",
     deadline: new Date('2023-12-04'),
-    active: false,
+    active: true,
     icon: 'tabler:app-window',
   },
   {
     title: "Uploading texts",
     description: " Successfully implemnted a function that allows user to upload their own texts & created an working API.",
     deadline: new Date('2023-12-25'),
-    active: false,
+    active: true,
     icon: 'tabler:gavel',
   },
   {
