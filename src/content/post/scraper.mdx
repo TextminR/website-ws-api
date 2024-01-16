@@ -4,4 +4,10 @@ title: Webscraper
 excerpt: Discover the latest news with the TextMinR-Webscraper
 ---
 
-# TextMinR-Webscraper
+# Scraping news-articles
+
+In order to make full use of textminR we need lots of high quality data. An emerging source of data is the landscape of online newspapers. In fact it is a rapidly growing topic and it represents the newest trends spreading around the globe. Thus a generic web-scraper needs to be implemented. A web-scraper which takes in a list of newspaper root-urls and returns us a machine readable format of all the current articles on the website. Genereic in that term means that our scraper should be suited against all problems in modern webscraping. For example a newspaper publisher might not provide a sitemap or a rss feed. In this particular matter a recursive href algorithm has to be implemented. The goal of this part is too provide a generic webcrawler which is capable of extracting articles of every given newspaper publisher in a machine readable format like json to store it in our database.
+
+## Current Status
+
+Implemented a RSS crawler which returns all the links of in it. Every RSS feed is stored in a json file, so a manual check for the url of the feed has to be done. Extraction of the article is simple and already implemented, we use libariers like newspaper3k, newsplease & readability. Afterwards those extracted json objects are stored in the database.
