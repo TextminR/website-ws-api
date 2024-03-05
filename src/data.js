@@ -67,7 +67,7 @@ export const milestones = [
     title: "Finished project",
     description: "All functionalities were implemented and tested correctly.",
     deadline: new Date('2024-01-22'),
-    active: false,
+    active: true,
     icon: 'tabler:tags',
   },
 ];
