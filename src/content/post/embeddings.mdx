@@ -1,0 +1,8 @@
+---
+publishDate: 2024-01-31T00:00:00Z
+title: Embeddings
+excerpt: Why Embeddings are important and wonderful!
+---
+
+# Explaination
+For our topic modeling part of the project we need to use text-embeddings. These need to be stored in a database, so we use the nested-storage function of Elasticsearch to store the embeddings. We have to use nested-storage, due to the token-limit of the tokenizer model used to create the embeddings. Hence, our data structute needs to have nested-storage. It was very fun working with tokenizer and embedding models, even though it was not easy.
